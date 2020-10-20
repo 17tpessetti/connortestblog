@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+
+        <title>Connor Bolton</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="nav-container">
+            <div class="logo">
+                <h1>Connor Bolton</h1>
+            </div>
+        <div class="navbar">
+        
+        <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div id="navlist">
+        <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="files/bolton_resume.pdf" target="_blank">Resume</a></li>
+            <li><a href="#">Fun Links</a></li>
+        </ul>
+        </div>
+        
+        </div>
+        </div>
+        <div id="home"></div>
+        <div class="main-page">
+            <div id=profile-pic-container>
+            <img id="connor-profile" src="images/profile.png" alt="Connor's Profile Picture">
+            </div>
+            <div class="page-card">
+            <h2>About Me</h2>
+            <p>I am a Graduate Research Assistant in Computer Science at the University of Michigan working with <a href="https://web.eecs.umich.edu/~kevinfu/">Kevin Fu</a>. I graduated from Clemson University with a BS in Computer Engineering in 2015 and I am currently pursuing a PhD in Computer Science at the University of Michigan. I am interested in attacking systems below the common abstractions at the often forgotten physical layer and defending systems against such attacks. I speak both English and Japanese, and some of my interests include sports (especially football), climbing, and Japanese culture.</p>
+            </div>
+            <div id="research" class="page-card">
+                <h2>Research Experience</h2>
+                <div class="page-card-shadow" id="clemson-research">
+                    <div id="clemson-logo" class="logo">
+                        <img src="images/clemson.png" alt="Clemson Logo">
+                    </div>
+                    <h3>Clemson University</h3>
+                    <h4>2015-2016</h4>
+                    <p>At Clemson, I primarily worked on ultra low power sensing network research with my undergraduate research advisor <a target="_blank" href="https://people.cs.clemson.edu/~jsorber/">Jacob Sorber</a> and then PhD student, now assistant professor, <a href="https://josiahhester.com/cv/" target="_blank">Josiah Hester</a>. We produced Shoulder Angel, which can be found in my publications below.</p>
+                </div>
+                <div class="page-card-shadow" id="umich-research">
+                    <div id="umich-logo" class="logo">
+                        <img src="images/michigan.png" alt="Michigan Logo">
+                    </div>
+                    <h3>University of Michigan</h3>
+                    <h4>2016-Present</h4>
+                    <p>At Michigan, I focus on cyber-physical attacks and defenses. I am currently working on several projects. Feel free to send me an email for details.</p>
+                </div>
+            </div>
+            <div id="publications" class="page-card">
+                <div class="header" id="pub-header">
+                <h2>Publications</h2>
+                <p>Here are projects that I have been a part of. I am currently working on several other papers. Please feel free to reach out if you would like to know more. I am always open to collaboration.</p>
+                </div>
+                <div class="project">
+                <div class="page-card-shadow">
+                    <h3>SoK: A Minimalist Approach to Formalizing Analog Sensor Security</h3>
+                    <p>Systematizing knowledge of analog attacks and defenses against sensor circuitry via a novel framework that enables prediction of future attacks and defenses. The paper appeared in the IEEE Symposium on Security and Privacy (Oakland) in May 2020.</p>
+                    <a target="_blank" href="files/oakland2020-SoK.pdf">Read the paper</a>
+
+                </div>
+                </div>
+                <div class="project">
+                    <div class="page-card-shadow">
+                        <h3>Blue Note</h3>
+                        <p>How intentional acoustic interference damages availability and integrity in hard disk drives and operating systems. The paper appeared in the IEEE Symposium on Security and Privacy (Oakland) in May 2018.</p>
+                        <p>
+                        <a target="_blank" href="files/oakland2018-bluenote.pdf">Read the paper</a><br>    
+                        <a target="_blank" href="https://docs.google.com/presentation/d/1gAa3i9KOLFedM19p1RsrNgxNQiQI-87MZCoWqR2Mrbs/edit">See slides</a>
+                        <p>Insert the video here when you learn how to do that</p>
+                        </p>
+                    </div>
+                    </div>
+                <div class="project">
+                    <div class="page-card-shadow">
+                        <h3>Shoulder Angel</h3>
+                        <p>Using a co-processor to monitor for errors and reprogram errant ultra low power wireless sensor nodes. This paper appeared in IEEE Embedded Systems Letters in December 2016 and won best poster at SenSys in November of 2015.</p>
+                        <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7572015">Read the paper</a><br>
+                        <a target="_blank" href="https://dl.acm.org/doi/10.1145/2809695.2817903">View the poster</a>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="page-card" id="contact">
+                <h2>Contact Me</h2>
+                <div id="contact-icons">
+                    <div class="contact-icon" id="email"><a href="mailto:mcbolto@umich.edu"><img alt="Email Logo" src="images/mail.png" title="Email"><div class="text-display">Email</div></a></div>
+                    <div class="contact-icon" id="linkedin"><a href="http://www.linkedin.com/in/connor-bolton-3bb64aa5" target="_blank"><img alt="Linkedin Logo" src="images/linkedin.svg" title="LinkedIn"><div class="text-display">LinkedIn</div></a></div>
+                    <div class="contact-icon" id="github"><a href="http://www.github.com/mcbolto" target="_blank"><img alt="Github Logo" src="images/github.svg" title="Github"><div class="text-display">GitHub</div></a></div>
+                    <div class="contact-icon" id="resume"><a href="files/bolton_resume.pdf" target="_blank"><img alt="Resume Logo" src="images/paper.png" title="Resume"><div class="text-display">Resume</div></a></div>
+                </div>
+                </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Connor Bolton 2020</p>
+        </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/mainpage.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
